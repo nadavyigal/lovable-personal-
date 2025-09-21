@@ -1,0 +1,19 @@
+{
+  "name": "lovable-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "engine",
+    "ui",
+    "workspace"
+  ],
+  "scripts": {
+    "dev:engine": "npm run -w engine dev",
+    "dev:ui": "npm run -w ui dev",
+    "dev:workspace": "npm run -w workspace dev"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
+

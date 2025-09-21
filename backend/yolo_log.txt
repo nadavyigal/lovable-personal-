@@ -1,0 +1,18 @@
+[2025-09-21 12:30:30] winget install -e --id OpenJS.NodeJS.LTS --accept-source-agreements --accept-package-agreements
+[2025-09-21 12:30:30] winget install -e --id Git.Git --accept-source-agreements --accept-package-agreements
+[2025-09-21 12:36:49] node -v
+[2025-09-21 12:36:49] npm -v
+[2025-09-21 12:36:49] git --version
+[2025-09-21 12:41:20] Create backend/.env.local with OPENAI_API_KEY placeholder
+[2025-09-21 12:43:39] Normalize backend/.env.local content
+[2025-09-21 12:44:04] Normalize backend/.env.local to single placeholder
+[2025-09-21 12:44:36] Overwrite backend/.env.local with single placeholder block
+[%((Get-Date).ToString('s'))%] npm run dev
+2025-09-21T14:42:37 npm run dev
+2025-09-21T19:42:05 CREATE .gitignore
+2025-09-21T19:42:05 git init
+2025-09-21T19:42:05 git add README.md
+2025-09-21T19:42:05 git commit -m 'docs: add README'
+2025-09-21T19:42:05 git branch -M main
+2025-09-21T19:42:05 git checkout -b feat/initial-code-import
+2025-09-21T19:42:05 git add -A
